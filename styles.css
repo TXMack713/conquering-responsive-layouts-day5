@@ -48,10 +48,10 @@ header > p {
   inline-size: 50%;
   font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 2;
-  letter-spacing: 1.5;
+  font-weight: 400;
+  font-size: 1.3125rem;
+  line-height: 1.5;
+  letter-spacing: 2;
   color: #ffffff;
   margin-bottom: 6.25%;
 }
