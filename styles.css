@@ -1,0 +1,71 @@
+html {
+  block-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  word-break: keep-all;
+  overflow: auto;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  display: grid;
+}
+
+header {
+  justify-self: center;
+  background-color: #23424a;
+  max-block-size: 41.1875;
+  max-inline-size: 90rem;
+  padding: 5% 7.5%;
+}
+
+header > h1 {
+  inline-size: 50%;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3rem;
+  /* line-height: 3.5; */
+  color: #ffffff;
+  margin-bottom: 2.5%;
+}
+
+header > p {
+  inline-size: 50%;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 2;
+  letter-spacing: 1.5;
+  color: #ffffff;
+  margin-bottom: 6.25%;
+}
+
+button {
+  background: #38cfd9;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.3125rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  inline-size: 17.8125rem;
+  block-size: 3.9375rem;
+  border-radius: 2rem;
+  color: #072a2d;
+}
